@@ -1,0 +1,128 @@
+/* Color Pallet 
+  #001220 - 
+  #FBAE3C
+*/
+
+body {
+  background-color: #001220;
+  background-repeat: no-repeat;
+  overflow: overlay;
+}
+
+/* Scroll bar */
+
+* {
+  scrollbar-width: auto;
+  scrollbar-color: white;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 5px;
+  border: 3px none #ffffff;
+}
+
+/* Navbar */
+
+.navbar-person {
+  text-align: center;
+}
+
+.navbar-itens {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  display: inline-flex;
+  position: relative;
+  top: 5px;
+}
+
+.nav-item {
+  border: 0px;
+  position: relative;
+}
+
+.nav-span:hover {
+  background: #949394;
+  transition: all 0.5s ease-in-out;
+  border-radius: 8px;
+}
+
+.nav-span {
+  color: #dfe0e2;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+  padding: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.nav-line {
+  display: block;
+  margin: auto;
+  width: 50%;
+  border-bottom: 1px solid white;
+  border-radius: 10px;
+  width: 25%;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+/* Carrousel */
+.carousel-inner {
+  width: auto;
+  height: 650px;
+}
+
+.carousel-img {
+  border-radius: 10px;
+}
+
+/* Line */
+
+.line {
+  display: block;
+  margin: auto;
+  width: 50%;
+  border-bottom: 1px solid white;
+  border-radius: 10px;
+  width: 80%;
+  margin-top: 30px;
+}
+
+/* Cards */
+
+.card {
+  float: left;
+  margin-top: 20px;
+  margin-left: 100px;
+  width: 20rem;
+  margin-top: 40px;
+}
+
+.card-img-top {
+  width: auto;
+  height: 15rem;
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+  display: block;
+  margin: auto;
+  width: 50%;
+  margin-top: 40rem;
+}
